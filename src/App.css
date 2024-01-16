@@ -1,0 +1,78 @@
+.custom-item.highlighted {
+  background-color: #e19436;
+}
+
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 4px solid #de68d5;
+}
+
+.custom-input-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #eceff1;
+  padding: 10px;
+}
+
+.custom-item {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  padding: 8px 12px;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-item-remove {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.custom-suggestion-list {
+  margin-top: 8px;
+  width: 25%;
+  position: absolute;
+  top: 10%;
+}
+
+.custom-suggestion {
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: 4px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.custom-suggestion .custom-email {
+  margin-left: 8px;
+  color: #555;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin: 4px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.custom-item-avatar,
+.custom-suggestion-avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.custom-suggestion:hover,
+.custom-item:hover {
+  background-color: #cdc7f9;
+}
